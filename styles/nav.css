@@ -1,0 +1,24 @@
+nav {
+  display: flex;
+  padding: 20px  /*32px foi retirado daqui para por em um elemento global*/;
+  justify-content: space-between; /*espaço entre os elementos*/
+  align-items: center; /* centralizar os itens ao centro*/
+  padding-block: 20px; /*espaço dentro da caixa para a borda*/
+  
+}
+
+nav ul {
+  display: flex;
+  list-style: none; /*tira o estilo de lista*/
+  gap: 24px; /*espaço entre os itens*/
+  align-items: center; /*alinhas os itens no centro*/
+  padding-block: 8px; /*espaço da propriedade dentro da caixa*/
+  
+
+}
+
+nav ul li:last-child img {
+  width: 40px; /*tamanho da imagem*/
+  height: 40px;
+  object-fit: cover; /*para a imagem cobrir todo o espaço*/
+}
